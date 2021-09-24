@@ -30,7 +30,7 @@ esp_err_t ret;
 
 extern "C" void app_main()
 {
-    printf("\n   LilyBook v%s\n\n", APP_VERSION);
+    printf("\n   ChipLet v%s\n\n", APP_VERSION);
 
     storage_init();
     buttons_init();
