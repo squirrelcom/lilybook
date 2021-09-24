@@ -78,7 +78,7 @@ void display_splash_screen()
     EPD_UpdateScreen();
 
     EPD_setFont(COMIC24_FONT, NULL);
-    EPD_print("LilyBook", 30, 30);
+    EPD_print("ChipLet", 30, 30);
     EPD_setFont(DEFAULT_FONT, NULL);
     EPD_print("Version:", 30, 70);
     EPD_print(APP_VERSION, 100, 70);
